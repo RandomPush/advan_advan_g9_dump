@@ -1,0 +1,12 @@
+# qzhu notes:this is used by revo
+
+on sprd-flash-ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_sc2703.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_ocp8137.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_pmicsink.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_pmicsink_f.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_sc2721.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_gpio.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_gpio_f.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_kpled.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_kpled_f.ko

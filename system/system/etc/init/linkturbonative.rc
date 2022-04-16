@@ -1,0 +1,4 @@
+service linkturbonative /system/bin/linkturbonative
+    class main
+    user root
+    group system

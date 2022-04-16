@@ -1,0 +1,191 @@
+  <root>
+  <!-->
+  sensor id 0
+  <-->
+      <CameraModuleCfg>
+        <SlotId>0</SlotId>
+        <SensorName>imx258_e78_tengzhi</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>0</Resource_cost>
+        <TuningParameter>
+            <TuningName>imx258_e78_tengzhi</TuningName>
+        </TuningParameter>
+        <VCM>
+            <AfName>dw9800</AfName>
+            <Mode>0</Mode>
+        </VCM>
+   </CameraModuleCfg>
+   
+   <CameraModuleCfg>
+        <SlotId>0</SlotId>
+        <SensorName>s5k3p3_e78_tengzhi</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>0</Resource_cost>
+        <TuningParameter>
+            <TuningName>s5k3p3_e78_tengzhi</TuningName>
+        </TuningParameter>
+        <VCM>
+            <AfName>dw9714</AfName>
+            <Mode>0</Mode>
+        </VCM>
+   </CameraModuleCfg>
+   
+   
+   <CameraModuleCfg>
+        <SlotId>0</SlotId>
+        <SensorName>imx278_e78_tengzhi</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>0</Resource_cost>
+        <TuningParameter>
+            <TuningName>imx278_e78_tengzhi</TuningName>
+        </TuningParameter>
+        <VCM>
+            <AfName>dw9800</AfName>
+            <Mode>0</Mode>
+        </VCM>
+   </CameraModuleCfg>
+
+   <CameraModuleCfg>
+        <SlotId>0</SlotId>
+        <SensorName>imx351_e78_tengzhi</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>0</Resource_cost>
+        <TuningParameter>
+            <TuningName>imx351_e78_tengzhi</TuningName>
+        </TuningParameter>
+        <VCM>
+            <AfName>dw9714</AfName>
+            <Mode>0</Mode>
+        </VCM>
+   </CameraModuleCfg>
+
+   <CameraModuleCfg>
+        <SlotId>0</SlotId>
+        <SensorName>imx214_e78_tengzhi</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>0</Resource_cost>
+        <TuningParameter>
+            <TuningName>imx214_e78_tengzhi</TuningName>
+        </TuningParameter>
+        <VCM>
+            <AfName>dw9714</AfName>
+            <Mode>0</Mode>
+        </VCM>
+   </CameraModuleCfg>
+
+   <CameraModuleCfg>
+        <SlotId>0</SlotId>
+        <SensorName>imx135_e78_tengzhi</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>0</Resource_cost>
+        <TuningParameter>
+            <TuningName>imx135_e78_tengzhi</TuningName>
+        </TuningParameter>
+        <VCM>
+            <AfName>dw9714</AfName>
+            <Mode>0</Mode>
+        </VCM>
+   </CameraModuleCfg>
+
+   <CameraModuleCfg>
+        <SlotId>0</SlotId>
+        <SensorName>s5k3m2_e78_tengzhi</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>0</Resource_cost>
+        <TuningParameter>
+            <TuningName>s5k3m2_e78_tengzhi</TuningName>
+        </TuningParameter>
+        <VCM>
+            <AfName>dw9714</AfName>
+            <Mode>0</Mode>
+        </VCM>
+   </CameraModuleCfg>
+   
+
+  <!-->
+  sensor id 1
+  <-->
+      <CameraModuleCfg>
+        <SlotId>1</SlotId>
+        <SensorName>gc5035_e78_tengzhi</SensorName>
+        <Facing>FRONT</Facing>
+        <Orientation>270</Orientation>
+        <Resource_cost>0</Resource_cost>
+        <TuningParameter>
+            <TuningName>gc5035_e78_tengzhi</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+      
+      <CameraModuleCfg>
+        <SlotId>1</SlotId>
+        <SensorName>s5k5e2ya_e78_tengzhi</SensorName>
+        <Facing>FRONT</Facing>
+        <Orientation>270</Orientation>
+        <Resource_cost>0</Resource_cost>
+        <TuningParameter>
+            <TuningName>s5k5e2ya_e78_tengzhi</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+
+      <CameraModuleCfg>
+        <SlotId>1</SlotId>
+        <SensorName>gc5025_e78_tengzhi</SensorName>
+        <Facing>FRONT</Facing>
+        <Orientation>270</Orientation>
+        <Resource_cost>0</Resource_cost>
+        <TuningParameter>
+            <TuningName>gc5025_e78_tengzhi</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+
+      <CameraModuleCfg>
+        <SlotId>1</SlotId>
+        <SensorName>hi552_e78_tengzhi</SensorName>
+        <Facing>FRONT</Facing>
+        <Orientation>270</Orientation>
+        <Resource_cost>0</Resource_cost>
+        <TuningParameter>
+            <TuningName>hi552_e78_tengzhi</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+
+      <CameraModuleCfg>
+        <SlotId>1</SlotId>
+        <SensorName>sp5508_e78_tengzhi</SensorName>
+        <Facing>FRONT</Facing>
+        <Orientation>270</Orientation>
+        <Resource_cost>0</Resource_cost>
+        <TuningParameter>
+            <TuningName>sp5508_e78_tengzhi</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+
+      <CameraModuleCfg>
+        <SlotId>1</SlotId>
+        <SensorName>ov8858_e78_tengzhi</SensorName>
+        <Facing>FRONT</Facing>
+        <Orientation>270</Orientation>
+        <Resource_cost>0</Resource_cost>
+        <TuningParameter>
+            <TuningName>ov8858_e78_tengzhi</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+
+  <!-->
+  sensor id 2
+  <-->
+      <CameraModuleCfg>
+        <SlotId>2</SlotId>
+        <SensorName>gc030a_e78_tengzhi</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>0</Resource_cost>
+      </CameraModuleCfg>
+  </root>

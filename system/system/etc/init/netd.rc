@@ -1,0 +1,22 @@
+on post-fs-data
+    mkdir /data/misc/dhcp 0770 dhcp dhcp
+    chown dhcp system /data/misc/dhcp
+    mkdir /data/misc/dhcp6c 0770 dhcp dhcp
+    chown dhcp system /data/misc/dhcp6c
+
+service netd /system/bin/netd
+    class main
+    socket dnsproxyd stream 0660 root inet
+    socket mdns stream 0660 root system
+    socket fwmarkd stream 0660 root inet
+	socket ucl_net_ns stream 766 root system
+    socket ucl_net_dm stream 766 root system
+    onrestart restart zygote
+    onrestart restart zygote_secondary
+    # b/121354779: netd itself is not updatable, but on startup it dlopen()s the resolver library
+    # from the DNS resolver APEX. Mark it as updatable so init won't start it until all APEX
+    # packages are ready.
+    updatable
+
+on post-fs-data
+    mkdir /data/misc/unet 0755 root system
